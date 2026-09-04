@@ -210,11 +210,15 @@ while True:
 
         print("\n--- ENTER SENSOR READINGS ---")
 
-        temperature = float(input("Temperature (°C): "))
-        humidity = float(input("Humidity (%): "))
-        voltage = float(input("Voltage (V): "))
-        current = float(input("Current (A): "))
-
+        try:
+            temperature = float(input("Temperature (°C): "))
+            humidity = float(input("Humidity (%): "))
+            voltage = float(input("Voltage (V): "))
+            current = float(input("Current (A): "))
+        except ValueError:
+            print("Invalid input! Please enter numbers only.")
+            continue
+        
         readings["temperature"].append(temperature)
         readings["humidity"].append(humidity)
         readings["voltage"].append(voltage)
