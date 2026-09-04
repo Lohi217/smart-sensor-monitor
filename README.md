@@ -1,9 +1,25 @@
 Project Description
 
-The Smart Sensor Monitoring & Alert System is a Python-based monitoring application developed to analyze and manage critical sensor parameters such as temperature, humidity, voltage, and current.
+The Smart Sensor Monitoring & Alert System is a Python-based application designed to monitor and analyze temperature, humidity, voltage, and current sensor readings. It evaluates sensor values against predefined safety thresholds and classifies them as NORMAL, WARNING, or CRITICAL.
 
-The system continuously evaluates sensor readings against predefined safety thresholds and classifies their condition as NORMAL, WARNING, or CRITICAL. It provides a structured monitoring dashboard and intelligent alert summary to help users quickly identify abnormal conditions and potential risks.
+The system provides a sensor dashboard, smart alert summary, CSV-based data logging, statistical analysis, trend analysis, and input validation. These capabilities help users identify abnormal sensor conditions, track sensor data, and understand changes in system parameters effectively.
 
-The application also supports CSV-based data logging, sensor trend analysis, statistical reporting, and input validation, enabling users to record, analyze, and interpret sensor data effectively.
+Key Features
 
-This project demonstrates the practical application of Python programming, data analysis, monitoring logic, error handling, and Git/GitHub version control to develop a structured and maintainable sensor monitoring solution.
+• Multi-sensor monitoring for temperature, humidity, voltage, and current.
+• Automatic NORMAL, WARNING, and CRITICAL status classification.
+• Sensor dashboard for quick monitoring.
+• Smart alert summary for abnormal conditions.
+• CSV-based sensor data logging with timestamps.
+• Statistical analysis including average, minimum, and maximum values.
+• Trend analysis to identify increasing, decreasing, and stable readings.
+• Input validation and error handling for reliable operation.
+• Git and GitHub based version-controlled development.
+
+Technologies Used
+
+• Python
+• Python CSV Module
+• Python Datetime Module
+• Git
+• GitHub
