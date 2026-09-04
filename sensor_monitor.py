@@ -1,0 +1,15 @@
+print("========================================")
+print("     SMART SENSOR MONITORING SYSTEM")
+print("========================================")
+
+temperature = float(input("Enter Temperature (°C): "))
+humidity = float(input("Enter Humidity (%): "))
+voltage = float(input("Enter Voltage (V): "))
+current = float(input("Enter Current (A): "))
+
+print("\n----------- SENSOR READINGS ------------")
+print(f"Temperature : {temperature} °C")
+print(f"Humidity    : {humidity} %")
+print(f"Voltage     : {voltage} V")
+print(f"Current     : {current} A")
+print("----------------------------------------")
