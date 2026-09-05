@@ -6,27 +6,23 @@ The system provides a sensor dashboard, smart alert summary, CSV-based data logg
 
 Key Features
 
-• Multi-sensor monitoring for temperature, humidity, voltage, and current.
-• Automatic NORMAL, WARNING, and CRITICAL status classification.
-• Sensor dashboard for quick monitoring.
-• Smart alert summary for abnormal conditions.
-• CSV-based sensor data logging with timestamps.
-• Statistical analysis including average, minimum, and maximum values.
-• Trend analysis to identify increasing, decreasing, and stable readings.
-• Input validation and error handling for reliable operation.
-• Git and GitHub based version-controlled development.
+1. Multi-sensor monitoring for temperature, humidity, voltage, and current.
+2. Automatic NORMAL, WARNING, and CRITICAL status classification.
+3. Sensor dashboard for quick monitoring.
+4. Smart alert summary for abnormal conditions.
+5. CSV-based sensor data logging with timestamps.
+6. Statistical analysis including average, minimum, and maximum values.
+7. Trend analysis to identify increasing, decreasing, and stable readings.
+8. Input validation and error handling for reliable operation.
+9. Git and GitHub based version-controlled development.
 
 Technologies Used
 
-• Python
-
-• Python CSV Module
-
-• Python Datetime Module
-
-• Git
-
-• GitHub
+1. Python
+2. Python CSV Module
+3. Python Datetime Module
+4. Git
+5. GitHub
 
 How to Run
 
@@ -57,23 +53,17 @@ Sample Output
 
 --- ENTER SENSOR READINGS ---
 
-Temperature (°C): 38
-
-Humidity (%): 75
-
-Voltage (V): 5.2
-
-Current (A): 1.2
+1. Temperature (°C): 38
+2. Humidity (%): 75
+3. Voltage (V): 5.2
+4. Current (A): 1.2
 
 ----------- CURRENT STATUS ------------
 
-Temperature : 38.00 °C [WARNING]
-
-Humidity    : 75.00 % [WARNING]
-
-Voltage     : 5.20 V [WARNING]
-
-Current     : 1.20 A [WARNING]
+1. Temperature : 38.00 °C [WARNING]
+2. Humidity    : 75.00 % [WARNING]
+3. Voltage     : 5.20 V [WARNING]
+4. Current     : 1.20 A [WARNING]
 
 OVERALL STATUS: WARNING
 
