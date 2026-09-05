@@ -40,9 +40,9 @@ The sensor readings are automatically stored in "sensor_data.csv" for future ana
 
 Sample Output
 
-========================================
+---------------------------------------
      SMART SENSOR MONITORING SYSTEM
-========================================
+---------------------------------------
 
 1. Enter Sensor Readings
 2. View Statistics
@@ -52,15 +52,23 @@ Sample Output
 6. Exit
 
 --- ENTER SENSOR READINGS ---
+
 Temperature (°C): 38
+
 Humidity (%): 75
+
 Voltage (V): 5.2
+
 Current (A): 1.2
 
 ----------- CURRENT STATUS ------------
+
 Temperature : 38.00 °C [WARNING]
+
 Humidity    : 75.00 % [WARNING]
+
 Voltage     : 5.20 V [WARNING]
+
 Current     : 1.20 A [WARNING]
 
 OVERALL STATUS: WARNING
