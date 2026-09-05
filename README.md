@@ -19,9 +19,13 @@ Key Features
 Technologies Used
 
 • Python
+
 • Python CSV Module
+
 • Python Datetime Module
+
 • Git
+
 • GitHub
 
 How to Run
